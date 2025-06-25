@@ -31,13 +31,7 @@ cd twitter_trends_to_blog
 pip install -r requirements.txt
 ```
 
-3. Initialize `config` as a Python package:
-
-```bash
-touch config/__init__.py
-```
-
-4. Create a `.env` file in the project root with your credentials:
+3. Create a `.env` file in the project root with your credentials:
 
 ```env
 TWITTER_CONSUMER_KEY=your_key
